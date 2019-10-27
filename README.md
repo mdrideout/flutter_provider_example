@@ -1,16 +1,10 @@
-# provider_example
+# Flutter Provider Example
 
-An example of using provider.
+This project is based on the starting point for a flutter application.
 
-## Getting Started
+## Improvements
+The starting point has been refactored to utilize Provider for state management.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- State is managed with Provider
+- The counter is refactored into a separate widget file, setup as a Consumer
+- The counter and counterData model is setup to be more extensible, as an example for more complex data
